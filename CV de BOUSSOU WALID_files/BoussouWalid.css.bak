@@ -1,0 +1,121 @@
+/*Built from scratch by BOUSSOU WALID student at University Abedlmalik Saadi, please be respectfull and dont use the code, thank you.*/
+
+body { font-size:100%; 
+background: linear-gradient(to top, #E4E4E4 0%, #7E8596 7%, #E4E4E4 26%, #7E8597 34%, #FFFFFF 50%, #FFFFFF 50%, #7E8597 66%, #E4E4E4 73%, #7E8596 92%, #E4E4E4 100%) ; 
+margin: 3% 9% 5% 9%; 
+overflow: auto}
+
+
+header{transition : all 0.5s ease-out;
+font-size:120%;
+margin-bottom:30px;
+color:rgb(21, 21, 179); 
+background-color:silver;
+font-family:serif; 
+text-align:center; 
+letter-spacing:20px;
+border-width: thick; border-style: outset; border-color: purple;
+padding-bottom:17px; }
+header:hover{box-shadow: 0px 0px 5px red ;}
+#walid{text-shadow:0 0 20px rgb(213, 190, 243);
+letter-spacing:17px;float:center; 
+width:80%; font-variant: small-caps;
+transition : all 0.8s ease-out;}
+#walid:hover{text-shadow:0 0 20px purple;color: white;
+letter-spacing:35px;}
+#ligne{float:center; width:80%; 
+text-decoration: underline;color:grey ; letter-spacing: 5px;}
+
+
+
+nav {width: 32%;font-size:100%;float:left;  margin-bottom:5px;  }
+nav h4{transition : all 0.5s ease-out;}
+nav h4:hover{text-shadow:0 0 9px black;
+background: linear-gradient(to top, #E4E4E4 0%, #7E8596 7%, #E4E4E4 26%, #7E8597 34%, #FFFFFF 50%, #FFFFFF 50%, #7E8597 66%, #E4E4E4 73%, #7E8596 92%, #E4E4E4 100%) ;
+color: black ;letter-spacing:5px;}/*Built from scratch by University Abedlmalik Saadi student BOUSSOU Walid, please be respectfull and dont use the code, thank you.*/
+
+#photo{margin-top:40px;text-align:center;}
+#photo img{transition : all 0.3s ease-out;box-shadow: 0px 0px 20px purple, 0 0 4px blue;border-radius:200px; border-style:dashed; border-color:purple; border-width:3px} 
+#photo img:hover{text-align:center; transform:rotate(360deg);box-shadow: 0px 0px 20px blue, 0 0 4px purple;}
+#nav{transition : all 0.5s ease-out;font-family:serif;background-color:silver;border-style:solid ; border-color:purple;margin-bottom:15px; overflow: auto;}
+#nav:hover{box-shadow: 0px 0px 7px blue;}
+#motivation{padding-right: 8px;  user-select: none;color: blue ;  padding: 8px 10px 32px 10px;overflow: auto;}/* user-select: none; peut pas copier */
+#motivation p::before{
+content: ' ';
+font-size: 1px;
+border-radius: 50%;
+background-color: #191970;
+margin-left: 5px;
+display: inline-block;
+}
+
+
+
+section{ margin-left: 0.2%;float: right; user-select: none;transition : all 0.5s ease-out;padding-top:4px;font-size:100%;margin-bottom:20px;font-family:serif;background-color:silver;border-style:solid ;border-color:purple;
+width: 65%; overflow: auto}
+section:hover{box-shadow: 0px 0px 7px blue;}/* overflow: auto lorque ktaba sort de sa place when biig */
+
+table, tr, td, th {
+	border: 2px solid purple;
+	border-collapse : collapse;}
+table{transition : all 1s ease-in;font-family:serif;width:90%; margin:auto; background-color:mediumpurple; border-color:purple; border-style:groove; }
+table:hover{box-shadow: 0px 0px 20px blueviolet;width:80%}
+th{color:gainsboro; text-shadow: 0 0 5px black; text-align:center;letter-spacing:3px; background-color:blueviolet;}
+.langue{padding-left:25px;color:#191970}
+.fluency{font-family:serif;color: navy;text-align:center; width:50%}
+th:hover {background-color: purple;}
+
+
+/* ----------------------------------- */
+h4 {transition : all 0.6s ease-out;border-bottom-style:dotted;	border-top-style:solid; border-color:white; border-width:2px;text-align:center;font-family:serif;font-variant: small-caps;text-decoration: underline;
+text-shadow:0 0 2px black;background: linear-gradient(to top, #E4E4E4 0%, #7E8596 7%, #E4E4E4 26%, #7E8597 34%, #FFFFFF 50%, #FFFFFF 50%, #7E8597 66%, #E4E4E4 73%, #7E8596 92%, #E4E4E4 100%) ;color: purple ;letter-spacing:5px; }
+h4:hover{text-shadow:0 0 40px black;color: black ;letter-spacing:4px;}
+.id{transition : all 1.2s ease-out;font-family:serif; color: blue; margin-left:30px; margin-right:10px; text-indent:12px;  padding:7px; } /*2nd membre bleu*/
+.id:hover{text-shadow:0 0 4px blue;padding-left:25px; color:darkblue;text-decoration:none;}
+.w{font-family:serif; color: blue; margin-left:30px; margin-right:10px; text-indent:12px;  padding:7px; } /*2nd membre bleu*/
+.w a{text-decoration:none;}
+.w a:hover{text-shadow:0 0 4px #39f8ff;letter-spacing:0px; color:gainsboro;text-decoration:underline}
+a:visited {color: blue }
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px silver; 
+  border-radius: 50px;
+  background: grey;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: purple; 
+  border-radius: 50px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: navy; 
+}
+
+html {
+  scroll-behavior: smooth;
+}
+/* ------------------------------------ */
+
+
+
+footer{opacity:0.95;box-sizing: border-box;position: sticky;bottom:2px;transition : all 0.4s ease-out;clear:both;border-style:inset;border-width:3px; border-color:purple; height:31px ; background-color:silver; text-align:center;
+		 font-family: verdana; font-size:14px;overflow: auto}
+footer:hover{box-shadow: 0px 0px 5px red;}
+.cp{margin-top:4px;font-size:100%;float:left;width: 33%;color: black;}
+.cp:hover{font-size:95%;text-shadow:0 0 9px gainsboro;color:purple;margin-top:6px;transition : all 1s ease-out;}
+.Facebook {margin-top:4px;font-size:100%;float:left; width: 33%;color:blue;}
+.Facebook a:hover{color:purple;text-shadow:0 0 9px black;display:inline;transition :  1s ;} /*transition : all 0.8s ease-out*/
+.LinkedIn{margin-top:4px;font-size:100%;float:left; width: 33%;color:darkblue;}
+.LinkedIn a:hover{color:purple;text-shadow:0 0 9px black;display:inline;transition :  1s ;}
+.up{transition : all 0.4s ease-out;}
+.up:hover{border-radius:400px; transform:rotate(720deg); text-shadow: 0 0 4px blue; box-shadow: 0px 0px 7px red;}
+.up:hover{background-color:purple;transition : all 0s ease-out;}
